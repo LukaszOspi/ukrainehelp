@@ -135,7 +135,7 @@ const FeaturesTiles = ({
                   <div className="features-tiles-item-image mb-16">
                     <a href="https://www.berlin.de/einwanderung/ueber-uns/aktuelles/artikel.1180210.php">
                       <Image
-                        src={require("./../../assets/images/berlin.jpeg")}
+                        src={require("./../../assets/images/berlin.jpg")}
                         alt="Logo of City Berlin"
                         width={100}
                         height={100}
@@ -151,6 +151,56 @@ const FeaturesTiles = ({
                     Website from Berlin City in German, English and Ukrainian
                     providing informations about current rules and help offered
                     by state and city itself.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="tiles-item reveal-from-bottom">
+              <div className="tiles-item-inner">
+                <div className="features-tiles-item-header">
+                  <div className="features-tiles-item-image mb-16">
+                    <a href="https://pomagamukrainie.gov.pl/">
+                      <Image
+                        src={require("./../../assets/images/polska2.jpeg")}
+                        alt="Polish national sign"
+                        width={100}
+                        height={100}
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div className="features-tiles-item-content">
+                  <h4 className="mt-0 mb-8">
+                    Polish website for Ukrainian Refugees{" "}
+                  </h4>
+                  <p className="m-0 text-sm">
+                    Available in both Polish and Ukrainian. For those in Poland
+                    and Ukraine, who want to help and need help.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="tiles-item reveal-from-bottom">
+              <div className="tiles-item-inner">
+                <div className="features-tiles-item-header">
+                  <div className="features-tiles-item-image mb-16">
+                    <a href="https://www.gzf-berlin.org/?fbclid=IwAR128T4x6WIKTe0p-3KPgNdDaRLv-yLtSYnfvoJYToSNxMvZ6dmSqlxytxE">
+                      <Image
+                        src={require("./../../assets/images/gzf_logo.png")}
+                        alt="GZF Logo"
+                        width={100}
+                        height={100}
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div className="features-tiles-item-content">
+                  <h4 className="mt-0 mb-8">Healt Centre for Refugees </h4>
+                  <p className="m-0 text-sm">
+                    Go-to place for psychological help dedicated to refugees.
+                    Website in German.
                   </p>
                 </div>
               </div>

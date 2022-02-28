@@ -60,8 +60,7 @@ const Hero = ({
               className="mt-0 mb-16 reveal-from-bottom"
               data-reveal-delay="200"
             >
-              Welcome to the website helping{" "}
-              <span className="text-color-primary">Ukraine</span>
+              Welcome to <span className="text-color-primary">ukraineaid</span>
             </h1>
             <div className="container-xs">
               <p
@@ -70,6 +69,11 @@ const Hero = ({
               >
                 Here you can find informations about how to help or how to GET
                 help in Berlin, Germany and beyond.
+              </p>
+              <p>
+                If you are interested in helping to develop the website or have
+                useful links, please contact through links on the bottom
+                (instagram, telegram)
               </p>
 
               <div className="reveal-from-bottom" data-reveal-delay="600">

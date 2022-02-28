@@ -64,9 +64,60 @@ const FeaturesSplit = ({
                 className="split-item-content center-content-mobile reveal-from-left"
                 data-reveal-container=".split-item"
               >
-                <div className="text-xxs text-color-primary fw-600 tt-u mb-8"></div>
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                  FACEBOOK INITIATIVES
+                </div>
                 <h3 className="mt-0 mb-12"></h3>
-                <p className="m-0"></p>
+                <p className="m-0">
+                  <div className="tiles-item reveal-from-bottom">
+                    <div className="tiles-item-inner">
+                      <div className="features-tiles-item-header">
+                        <div className="features-tiles-item-image mb-16">
+                          <a href="https://www.facebook.com/oksana.levytska.5/posts/10217961595026019">
+                            <Image
+                              src={require("./../../assets/images/oxana.jpg")}
+                              alt="Facebook code"
+                              width={150}
+                              height={150}
+                            />
+                          </a>
+                        </div>
+                      </div>
+                      <div className="features-tiles-item-content">
+                        <h4 className="mt-0 mb-8">
+                          Private person collecting donations{" "}
+                        </h4>
+                        <p className="m-0 text-sm">
+                          Contact on facebook to a person that collects physical
+                          donations from your home.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="tiles-item reveal-from-bottom">
+                    <div className="tiles-item-inner">
+                      <div className="features-tiles-item-header">
+                        <div className="features-tiles-item-image mb-16">
+                          <a href="https://www.instagram.com/helpbus/">
+                            <Image
+                              src={require("./../../assets/images/helpbus.png")}
+                              alt="Helpbus"
+                              width={150}
+                              height={150}
+                            />
+                          </a>
+                        </div>
+                      </div>
+                      <div className="features-tiles-item-content">
+                        <h4 className="mt-0 mb-8">Helpbus </h4>
+                        <p className="m-0 text-sm">
+                          Instagram profile for buses that pick up refugees at
+                          the border Poland - Ukraine.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </p>
               </div>
               <div
                 className={classNames(
@@ -83,6 +134,9 @@ const FeaturesSplit = ({
                 /> */}
               </div>
             </div>
+
+            {/* THIS IS THE PLACE WHERE I PUT NEW DIV TO HAVE IT IN ONE LINE */}
+            <div></div>
 
             <div className="split-item">
               <div
