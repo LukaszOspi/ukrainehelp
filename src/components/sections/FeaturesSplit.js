@@ -103,7 +103,7 @@ const FeaturesSplit = ({
                   of the visa free stay at the local immigration office.
                 </p>
                 <p>
-                  {" "}
+                  {""}
                   If you seek Asylum, please keep in mind the following: 2)
                   applicants who gave their biometric data (finger prints) to
                   the border police of another European state they travelled
