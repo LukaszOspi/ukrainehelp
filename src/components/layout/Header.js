@@ -122,7 +122,7 @@ const Header = ({
                           className="button button-primary button-wide-mobile button-sm"
                           onClick={closeMenu}
                         >
-                          Tips & Info
+                          How can I help? (German)
                         </Link>
                       </li>
                     </ul>

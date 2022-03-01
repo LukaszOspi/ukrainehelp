@@ -3,6 +3,7 @@ import classNames from "classnames";
 import { SectionTilesProps } from "../../utils/SectionProps";
 import SectionHeader from "./partials/SectionHeader";
 import Image from "../elements/Image";
+import Tile from "../elements/Tile";
 
 const propTypes = {
   ...SectionTilesProps.types,
@@ -57,6 +58,30 @@ const FeaturesTiles = ({
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
+                    <a href="https://www.google.com/maps/d/edit?mid=1HWGUIMiiMMhJY3QnTz3nXRMH8AZ85WHD&usp=sharing">
+                      <Image
+                        src={require("./../../assets/images/maps.jpg")}
+                        alt="Google Maps"
+                        width={100}
+                        height={100}
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div className="features-tiles-item-content">
+                  <h4 className="mt-0 mb-8">Donate in Berlin</h4>
+                  <p className="m-0 text-sm">
+                    Places where you can go with your donation in Berlin on
+                    Google Maps
+                  </p>
+                </div>
+              </div>
+            </div>
+            {/* THIS IS WHERE TILE STARTS */}
+            <div className="tiles-item reveal-from-bottom">
+              <div className="tiles-item-inner">
+                <div className="features-tiles-item-header">
+                  <div className="features-tiles-item-image mb-16">
                     <a href="https://t.me/+pY4AEUY_0jZhMzQ0">
                       <Image
                         src={require("./../../assets/images/ukraine-telegram.jpg")}
@@ -76,7 +101,90 @@ const FeaturesTiles = ({
                 </div>
               </div>
             </div>
+            {/*  THIS IS WHERE TILE ENDS */}
+            <div className="tiles-item reveal-from-bottom">
+              <div className="tiles-item-inner">
+                <div className="features-tiles-item-header">
+                  <div className="features-tiles-item-image mb-16">
+                    <a href="https://pomagamukrainie.gov.pl/">
+                      <Image
+                        src={require("./../../assets/images/ukraina.jpg")}
+                        alt="Pomagam Ukrainie"
+                        width={100}
+                        height={100}
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div className="features-tiles-item-content">
+                  <h4 className="mt-0 mb-8">Pomagam Ukrainie</h4>
+                  <p className="m-0 text-sm">
+                    Polish government website for both those who want to help
+                    and those who need help (UKRAINIAN LANGUAGE)
+                  </p>
+                </div>
+              </div>
+            </div>
 
+            <div className="tiles-item reveal-from-bottom">
+              <div className="tiles-item-inner">
+                <div className="features-tiles-item-header">
+                  <div className="features-tiles-item-image mb-16">
+                    <a href="https://ukraina.services/">
+                      <Image
+                        src={require("./../../assets/images/ukraina.jpg")}
+                        alt="Ukraina Services"
+                        width={100}
+                        height={100}
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div className="features-tiles-item-content">
+                  <h4 className="mt-0 mb-8">Ukraina Services (PL)</h4>
+                  <p className="m-0 text-sm">
+                    Website in Polish, English and Ukrainian summarizing
+                    possibilities available in Poland
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="tiles-item reveal-from-bottom">
+              <div className="tiles-item-inner">
+                <div className="features-tiles-item-header">
+                  <div className="features-tiles-item-image mb-16">
+                    <a href="https://docs.google.com/document/d/14dfDMEOIEpuQGeD7y1Y-MOgrhNlXeCV7FlXKTl3cmNA/edit?usp=sharing">
+                      <Image
+                        src={require("./../../assets/images/ukraina.jpg")}
+                        alt="Document UKR"
+                        width={100}
+                        height={100}
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div className="features-tiles-item-content">
+                  <h4 className="mt-0 mb-8">Document in Ukrainian</h4>
+                  <p className="m-0 text-sm">
+                    15 pages of a document in Ukrainian language with all
+                    important informations for refugees
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/*        <div>
+              <Tile
+                picture="./../../assets/images/oxana.jpg"
+                url="https://www.facebook.com/oksana.levytska.5/posts/10217961595026019"
+                alt="Facebook code"
+                h="150"
+                w="150"
+                title="Private person collecting donations"
+                text="Contact on facebook to a person that collects physical
+                          donations from your home."
+              />
+            </div> */}
             <div
               className="tiles-item reveal-from-bottom"
               data-reveal-delay="200"

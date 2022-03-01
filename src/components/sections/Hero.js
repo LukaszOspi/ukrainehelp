@@ -68,13 +68,16 @@ const Hero = ({
                 data-reveal-delay="400"
               >
                 Here you can find informations about how to help or how to GET
-                help in Berlin, Germany and beyond.
+                help in Berlin, Germany and beyond. Please check regullary, this
+                page is updated every day! We work on providing it in Ukrainian
+                language in nearest future as well.
               </p>
               <p>
                 If you are interested in helping to develop the website or have
                 useful links, please contact through links on the bottom
                 (instagram, telegram)
               </p>
+              <p>Here are direct links to questionnaires to fill out:</p>
 
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>

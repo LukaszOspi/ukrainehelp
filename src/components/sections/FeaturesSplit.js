@@ -3,6 +3,7 @@ import classNames from "classnames";
 import { SectionSplitProps } from "../../utils/SectionProps";
 import SectionHeader from "./partials/SectionHeader";
 import Image from "../elements/Image";
+import Tile from "../elements/Tile";
 
 const propTypes = {
   ...SectionSplitProps.types,
@@ -69,6 +70,18 @@ const FeaturesSplit = ({
                 </div>
                 <h3 className="mt-0 mb-12"></h3>
                 <p className="m-0">
+                  {/*   <div>
+                    <Tile
+                      picture="require(./../../assets/images/helpbus.png)"
+                      url="https://www.facebook.com/oksana.levytska.5/posts/10217961595026019"
+                      alt="Facebook code"
+                      h="150"
+                      w="150"
+                      title="Private person collecting donations"
+                      text="Contact on facebook to a person that collects physical
+                          donations from your home."
+                    />
+                  </div> */}
                   <div className="tiles-item reveal-from-bottom">
                     <div className="tiles-item-inner">
                       <div className="features-tiles-item-header">
