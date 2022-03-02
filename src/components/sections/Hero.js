@@ -67,10 +67,9 @@ const Hero = ({
                 className="m-0 mb-32 reveal-from-bottom"
                 data-reveal-delay="400"
               >
-                Here you can find informations about how to help or how to GET
-                help in Berlin, Germany and beyond. Please check regullary, this
-                page is updated every day! We work on providing it in Ukrainian
-                language in nearest future as well.
+                Here you can find some information about how to help or how to
+                GET help in Berlin, Germany or beyond. Please check our website
+                regularly, the content is getting updated on a daily basis.
               </p>
               <p>
                 If you are interested in helping to develop the website or have
