@@ -172,7 +172,7 @@ const FeaturesTiles = ({
                 </div>
               </div>
             </div>
-
+            {/* push */}
             <div className="tiles-item reveal-from-bottom">
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
