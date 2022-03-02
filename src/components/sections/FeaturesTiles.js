@@ -107,6 +107,58 @@ const FeaturesTiles = ({
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
+                    <a href="https://www.mitost.org/ukraine/">
+                      <Image
+                        src={require("./../../assets/images/mitost.jpg")}
+                        alt="MitOst"
+                        width={100}
+                        height={100}
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div className="features-tiles-item-content">
+                  <h4 className="mt-0 mb-8">MitOst e.V.</h4>
+                  <p className="m-0 text-sm">
+                    Organisation that collects donations for Ukraine.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="tiles-item reveal-from-bottom">
+              <div className="tiles-item-inner">
+                <div className="features-tiles-item-header">
+                  <div className="features-tiles-item-image mb-16">
+                    <a href="https://t.me/+pY4AEUY_0jZhMzQ0">
+                      <Image
+                        src={require("./../../assets/images/wunderflats.png")}
+                        alt="Wunderflats"
+                        width={100}
+                        height={100}
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div className="features-tiles-item-content">
+                  <h4 className="mt-0 mb-8">
+                    Accomodation in Germany Wunderflats (link in UKR)
+                  </h4>
+                  <p className="m-0 text-sm">
+                    Wunderflats is a big company offering short term apartments.
+                    Most of the offers are for free, many under 500€ per month.
+                    <a href="https://wunderflats.com/page/ukraine/tenants-in-need-en">
+                      Link for the Website in English
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="tiles-item reveal-from-bottom">
+              <div className="tiles-item-inner">
+                <div className="features-tiles-item-header">
+                  <div className="features-tiles-item-image mb-16">
                     <a href="https://t.me/UkrainiansinMuc">
                       <Image
                         src={require("./../../assets/images/ukraine-telegram.jpg")}
