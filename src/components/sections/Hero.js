@@ -76,7 +76,19 @@ const Hero = ({
                 useful links, please contact through links on the bottom
                 (instagram, telegram)
               </p>
-              <p>Here are direct links to questionnaires to fill out:</p>
+              <p>
+                <a href="https://goo.gl/maps/HqttvYu8Y4LPWv4q8">
+                  First Contact Address
+                </a>{" "}
+                - go there after arrival into Berlin.{" "}
+                <a href="https://www.berlin.de/laf/ankommen/#:~:text=Bitte%20melden%20Sie%20sich%20zun%C3%A4chst,Bonhoeffer%2DNervenklinik%20in%20Haus%202.">
+                  Berlin City info in GER, UKR, RUS
+                </a>
+              </p>
+              <p>
+                Here are direct links to questionnaires to fill out (directly
+                from unterkunft-ukraine.de):
+              </p>
 
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
@@ -84,17 +96,17 @@ const Hero = ({
                     tag="a"
                     color="primary"
                     wideMobile
-                    href="https://airtable.com/shrCz6OBDQmo8Ccxp"
+                    href="https://unterkunft-ukraine.de/request"
                   >
-                    I look for accomodation
+                    I need accomodation
                   </Button>
                   <Button
                     tag="a"
                     color="dark"
                     wideMobile
-                    href="https://airtable.com/shrqoqOMs5vD4fdfb"
+                    href="https://unterkunft-ukraine.de/offer"
                   >
-                    I offer accomodation
+                    I have accomodation
                   </Button>
                 </ButtonGroup>
               </div>

@@ -4,6 +4,7 @@ import AppRoute from "./utils/AppRoute";
 import ScrollReveal from "./utils/ScrollReveal";
 import ReactGA from "react-ga";
 import Tips from "./components/sections/Tips";
+import Maps from "./components/sections/Maps";
 // Layouts
 import LayoutDefault from "./layouts/LayoutDefault";
 
@@ -37,6 +38,7 @@ const App = () => {
         <Switch>
           <AppRoute exact path="/" component={Home} layout={LayoutDefault} />
           <AppRoute path="/tips" component={Tips} layout={LayoutDefault} />
+          <AppRoute path="/maps" component={Maps} layout={LayoutDefault} />
         </Switch>
       )}
     />
