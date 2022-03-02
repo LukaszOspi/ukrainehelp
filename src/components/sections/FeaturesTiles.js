@@ -107,6 +107,30 @@ const FeaturesTiles = ({
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
+                    <a href="https://t.me/UkrainiansinMuc">
+                      <Image
+                        src={require("./../../assets/images/ukraine-telegram.jpg")}
+                        alt="Features tile icon 01"
+                        width={100}
+                        height={100}
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div className="features-tiles-item-content">
+                  <h4 className="mt-0 mb-8">Telegram group Munich</h4>
+                  <p className="m-0 text-sm">
+                    Click on the image to join the Telegram group for Ukrainians
+                    that look for accomodation in Munich (München)
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="tiles-item reveal-from-bottom">
+              <div className="tiles-item-inner">
+                <div className="features-tiles-item-header">
+                  <div className="features-tiles-item-image mb-16">
                     <a href="https://www.shelter4ua.com/">
                       <Image
                         src={require("./../../assets/images/shelter.png")}
@@ -262,7 +286,7 @@ const FeaturesTiles = ({
                   <h4 className="mt-0 mb-8">Document in Ukrainian</h4>
                   <p className="m-0 text-sm">
                     15 pages of a document in Ukrainian language with all
-                    important informations for refugees
+                    important information for refugees
                   </p>
                 </div>
               </div>
@@ -427,9 +451,9 @@ const FeaturesTiles = ({
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">Additional Informations</h4>
+                  <h4 className="mt-0 mb-8">Additional Information</h4>
                   <p className="m-0 text-sm">
-                    External Website with additional informations
+                    External Website with additional information
                   </p>
                 </div>
               </div>
