@@ -109,7 +109,7 @@ const FeaturesTiles = ({
                   <div className="features-tiles-item-image mb-16">
                     <a href="https://linktr.ee/help.ua.from.be?fbclid=IwAR0eGWCsv8Vsk0INIB65bPI0bf3h97s7yc74LvsjnGRZ2pPBo1zIQq9Of_A">
                       <Image
-                        src={require("./../../assets/images/ukraine.jpg")}
+                        src={require("./../../assets/images/ukraina.jpg")}
                         alt="Info Belgium"
                         width={100}
                         height={100}
