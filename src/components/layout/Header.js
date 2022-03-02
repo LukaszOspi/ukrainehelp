@@ -118,6 +118,15 @@ const Header = ({
                     <ul className="list-reset header-nav-right">
                       <li>
                         <Link
+                          to="./maps"
+                          className="button button-primary button-wide-mobile button-sm"
+                          onClick={closeMenu}
+                        >
+                          Map where to donate?
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
                           to="./tips"
                           className="button button-primary button-wide-mobile button-sm"
                           onClick={closeMenu}

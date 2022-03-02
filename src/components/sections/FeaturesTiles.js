@@ -107,6 +107,29 @@ const FeaturesTiles = ({
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
+                    <a href="https://linktr.ee/help.ua.from.be?fbclid=IwAR0eGWCsv8Vsk0INIB65bPI0bf3h97s7yc74LvsjnGRZ2pPBo1zIQq9Of_A">
+                      <Image
+                        src={require("./../../assets/images/ukraine.jpg")}
+                        alt="Info Belgium"
+                        width={100}
+                        height={100}
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div className="features-tiles-item-content">
+                  <h4 className="mt-0 mb-8">Help in Belgium</h4>
+                  <p className="m-0 text-sm">
+                    Website with information from Belgium.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="tiles-item reveal-from-bottom">
+              <div className="tiles-item-inner">
+                <div className="features-tiles-item-header">
+                  <div className="features-tiles-item-image mb-16">
                     <a href="https://warmes-bett.de/">
                       <Image
                         src={require("./../../assets/images/ukraina.jpg")}
