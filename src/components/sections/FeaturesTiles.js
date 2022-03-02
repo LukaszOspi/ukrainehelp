@@ -102,6 +102,56 @@ const FeaturesTiles = ({
               </div>
             </div>
             {/*  THIS IS WHERE TILE ENDS */}
+
+            <div className="tiles-item reveal-from-bottom">
+              <div className="tiles-item-inner">
+                <div className="features-tiles-item-header">
+                  <div className="features-tiles-item-image mb-16">
+                    <a href="https://www.shelter4ua.com/">
+                      <Image
+                        src={require("./../../assets/images/shelter.png")}
+                        alt="Shelter for UA"
+                        width={100}
+                        height={100}
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div className="features-tiles-item-content">
+                  <h4 className="mt-0 mb-8">Shelter for Ukraine</h4>
+                  <p className="m-0 text-sm">
+                    New website for shelters, both for those who seek and those
+                    who offer.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="tiles-item reveal-from-bottom">
+              <div className="tiles-item-inner">
+                <div className="features-tiles-item-header">
+                  <div className="features-tiles-item-image mb-16">
+                    <a href="https://unterkunft-ukraine.de/">
+                      <Image
+                        src={require("./../../assets/images/ukraina.jpg")}
+                        alt="Unterkunft Ukraine"
+                        width={100}
+                        height={100}
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div className="features-tiles-item-content">
+                  <h4 className="mt-0 mb-8">Unterkunft Ukraine</h4>
+                  <p className="m-0 text-sm">
+                    Berlin based website for housing - both offers and requests.
+                    In co-operation with GLS Bank and Ecosia, probably data
+                    protection compliant.
+                  </p>
+                </div>
+              </div>
+            </div>
+
             <div className="tiles-item reveal-from-bottom">
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
@@ -315,7 +365,7 @@ const FeaturesTiles = ({
                   <div className="features-tiles-item-image mb-16">
                     <a href="https://pomagamukrainie.gov.pl/">
                       <Image
-                        src={require("./../../assets/images/polska2.jpeg")}
+                        src={require("./../../assets/images/godlo_polski.png")}
                         alt="Polish national sign"
                         width={100}
                         height={100}
