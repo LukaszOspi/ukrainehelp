@@ -85,6 +85,7 @@ const Hero = ({
                   Berlin City info in GER, UKR, RUS
                 </a>
               </p>
+
               <p>
                 Here are direct links to questionnaires to fill out (directly
                 from unterkunft-ukraine.de):
@@ -107,6 +108,30 @@ const Hero = ({
                     href="https://unterkunft-ukraine.de/offer"
                   >
                     I have accomodation
+                  </Button>
+                </ButtonGroup>
+              </div>
+              <p> </p>
+              <div>
+                <p>Here links to Telegram Groups in Berlin:</p>
+              </div>
+              <div className="reveal-from-bottom" data-reveal-delay="600">
+                <ButtonGroup>
+                  <Button
+                    tag="a"
+                    color="dark"
+                    wideMobile
+                    href="https://t.me/teamzob"
+                  >
+                    Greet and Meet ZOB
+                  </Button>
+                  <Button
+                    tag="a"
+                    color="dark"
+                    wideMobile
+                    href="https://t.me/BerlinHbfArrival"
+                  >
+                    Greet and Meet HBF
                   </Button>
                 </ButtonGroup>
               </div>
