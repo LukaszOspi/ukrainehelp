@@ -180,7 +180,7 @@ const FeaturesTiles = ({
                   <div className="features-tiles-item-image mb-16">
                     <a href="https://berlin-hilft.com/ukraine/">
                       <Image
-                        src={require("./../../assets/images/berlin_hilft.jpeg")}
+                        src={require("./../../assets/images/berlin_hilft.jpg")}
                         alt="Warmes Bett"
                         width={100}
                         height={100}
