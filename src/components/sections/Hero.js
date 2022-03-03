@@ -133,6 +133,22 @@ const Hero = ({
                   >
                     Greet and Meet HBF
                   </Button>
+                  <Button
+                    tag="a"
+                    color="dark"
+                    wideMobile
+                    href="https://t.me/teamsuedkreuz"
+                  >
+                    Greet and Meet Südkreuz
+                  </Button>
+                  <Button
+                    tag="a"
+                    color="dark"
+                    wideMobile
+                    href="https://t.me/arrivalostbahnhof"
+                  >
+                    Greet and Meet Ostbahnhof
+                  </Button>
                 </ButtonGroup>
               </div>
             </div>
