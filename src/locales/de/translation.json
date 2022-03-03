@@ -1,0 +1,19 @@
+{
+  "hero": {
+    "welcome": "DE Welcome to",
+    "findInfo": "DE Here you can find some information about how to help or how to GET help in Berlin, Germany or beyond. Please check our website regularly, the content is getting updated on a daily basis",
+    "helping": "DE If you are interested in helping to develop the website or have useful links, please contact through links on the bottom (instagram, telegram)",
+    "firstContactAddress": "DE First Contact Address",
+    "arrival": "DE go there after arrival into Berlin",
+    "cityInfo": "DE Berlin City info in GER, UKR, RUS",
+    "questionnaires": "DE Here are direct links to questionnaires to fill out (directly from unterkunft-ukraine.de)",
+    "needAccommodation": "DE I need accommodation",
+    "haveAccommodation": "DE I have accommodation",
+    "links": "DE Here links to Telegram Groups in Berlin",
+    "zob": "DE Greet and Meet ZOB",
+    "hbf": "DE Greet and Meet HBF"
+  },
+  "tips": {
+    "title": "DE Tips and Links"
+  }
+}

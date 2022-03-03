@@ -1,18 +1,19 @@
-import React from "react";
-import classNames from "classnames";
-import { SectionSplitProps } from "../../utils/SectionProps";
-import SectionHeader from "./partials/SectionHeader";
-import Image from "../elements/Image";
-import Tile from "../elements/Tile";
-import Header from "../layout/Header";
+import React from 'react'
+import classNames from 'classnames'
+import { SectionSplitProps } from '../../utils/SectionProps'
+import SectionHeader from './partials/SectionHeader'
+import Image from '../elements/Image'
+import Tile from '../elements/Tile'
+import Header from '../layout/Header'
+import { useTranslation } from 'react-i18next'
 
 const propTypes = {
   ...SectionSplitProps.types,
-};
+}
 
 const defaultProps = {
   ...SectionSplitProps.defaults,
-};
+}
 
 const Tips = ({
   className,
@@ -29,31 +30,33 @@ const Tips = ({
   ...props
 }) => {
   const outerClasses = classNames(
-    "features-split section",
-    topOuterDivider && "has-top-divider",
-    bottomOuterDivider && "has-bottom-divider",
-    hasBgColor && "has-bg-color",
-    invertColor && "invert-color",
+    'features-split section',
+    topOuterDivider && 'has-top-divider',
+    bottomOuterDivider && 'has-bottom-divider',
+    hasBgColor && 'has-bg-color',
+    invertColor && 'invert-color',
     className
-  );
+  )
 
   const innerClasses = classNames(
-    "features-split-inner section-inner",
-    topDivider && "has-top-divider",
-    bottomDivider && "has-bottom-divider"
-  );
+    'features-split-inner section-inner',
+    topDivider && 'has-top-divider',
+    bottomDivider && 'has-bottom-divider'
+  )
 
   const splitClasses = classNames(
-    "split-wrap",
-    invertMobile && "invert-mobile",
-    invertDesktop && "invert-desktop",
-    alignTop && "align-top"
-  );
+    'split-wrap',
+    invertMobile && 'invert-mobile',
+    invertDesktop && 'invert-desktop',
+    alignTop && 'align-top'
+  )
 
   const sectionHeader = {
-    title: "",
-    paragraph: "",
-  };
+    title: '',
+    paragraph: '',
+  }
+
+  const { t } = useTranslation()
 
   return (
     <section {...props} className={outerClasses}>
@@ -75,13 +78,13 @@ const Tips = ({
                     <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
                       Tips
                     </div>
-                    <h3 className="mt-0 mb-12">Tips and Links</h3>
+                    <h3 className="mt-0 mb-12">{t('tips.title')}</h3>
                     <p className="m-0">
                       1. Spenden:
                       <p>
                         • Vertrauenswürdige Organisationen, die gerade die
                         Ukraine unterstützen, an die oder über die man spenden
-                        kann (Danke Mona Richter):{" "}
+                        kann (Danke Mona Richter):{' '}
                         <a href="https://docs.google.com/document/d/11cO5DaZm8xxz0_o7RuPObsrfkPBXGsEW/edit?usp=sharing&ouid=107866144349041787881&rtpof=true&sd=true">
                           LINK TO GOOGLE DOC
                         </a>
@@ -94,15 +97,15 @@ const Tips = ({
                       </p>
                     </p>
                     <p>
-                      {""}
+                      {''}
                       2. Sachspenden in Berlin Jeden Tag zwischen 10 und 18 Uhr
-                      kann man im{" "}
+                      kann man im{' '}
                       <a href="https://goo.gl/maps/3eMUR7fezam5ZnwH6">
                         Pilecki-Institut am Pariser Platz 4a
-                      </a>{" "}
+                      </a>{' '}
                       Hilfsgüter für die Ukraine abgeben. Es wird darum gebeten,
                       eine Liste mit den Hilfsgütern mitzubringen, da dies enorm
-                      bei der Logistik hilft. Besonders wichtig:{" "}
+                      bei der Logistik hilft. Besonders wichtig:{' '}
                       <ul>
                         <li>Thermo-Unterwäsche und -Kleidung, Fleece</li>
                         <li> Kleidung im Allgemeinen </li>
@@ -127,25 +130,25 @@ const Tips = ({
                       3. Demonstrieren / Solidarität Zeigen: Heute haben wir den
                       Ukrainer*innen schon gezeigt, dass wir nicht gleichgültig
                       sind. Macht so weiter und geht zur nächsten Demonstration
-                      in eurer Nähe! Demo-Überblick:{" "}
+                      in eurer Nähe! Demo-Überblick:{' '}
                       <a href="https://standwithukraine.live/">
                         https://standwithukraine.live/
-                      </a>{" "}
+                      </a>{' '}
                     </p>
                     <p>
                       4. Ehrenamtlich übersetzen oder dolmetschen (ru/ukr –
                       en/dt) Mein Kommilitone Slava Obodzinskiy baut eine
-                      Datenbank auf:{" "}
+                      Datenbank auf:{' '}
                       <a href="https://survey.lamapoll.de/Translators">
                         https://survey.lamapoll.de/Translators
-                      </a>{" "}
+                      </a>{' '}
                     </p>
                     <p>
                       5. Eine Unterkunft anbieten • Wohnraum für Geflüchtete
-                      (auch provisorisch für einen begrenzten Zeitraum):{" "}
+                      (auch provisorisch für einen begrenzten Zeitraum):{' '}
                       <a href="https://elinor.network/gastfreundschaft-ukraine/">
                         https://elinor.network/gastfreundschaft-ukraine/
-                      </a>{" "}
+                      </a>{' '}
                       • Fragt beim örtlichen Flüchtlingsrat nach, womit ihr
                       helfen könnt
                     </p>
@@ -165,7 +168,7 @@ const Tips = ({
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Tips;
+export default Tips
