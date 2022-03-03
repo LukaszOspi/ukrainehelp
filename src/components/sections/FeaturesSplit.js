@@ -82,31 +82,7 @@ const FeaturesSplit = ({
                           donations from your home."
                     />
                   </div> */}
-                  <div className="tiles-item reveal-from-bottom">
-                    <div className="tiles-item-inner">
-                      <div className="features-tiles-item-header">
-                        <div className="features-tiles-item-image mb-16">
-                          <a href="https://www.facebook.com/oksana.levytska.5/posts/10217961595026019">
-                            <Image
-                              src={require("./../../assets/images/oxana.jpg")}
-                              alt="Facebook code"
-                              width={150}
-                              height={150}
-                            />
-                          </a>
-                        </div>
-                      </div>
-                      <div className="features-tiles-item-content">
-                        <h4 className="mt-0 mb-8">
-                          Private person collecting donations{" "}
-                        </h4>
-                        <p className="m-0 text-sm">
-                          Contact on facebook to a person that collects physical
-                          donations from your home.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
+
                   <div className="tiles-item reveal-from-bottom">
                     <div className="tiles-item-inner">
                       <div className="features-tiles-item-header">

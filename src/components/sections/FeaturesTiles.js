@@ -81,6 +81,7 @@ const FeaturesTiles = ({
             <div className="tiles-item reveal-from-bottom">
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
+                  {/* this is where background image is nested */}
                   <div className="features-tiles-item-image mb-16">
                     <a href="https://t.me/+pY4AEUY_0jZhMzQ0">
                       <Image
@@ -102,6 +103,30 @@ const FeaturesTiles = ({
               </div>
             </div>
             {/*  THIS IS WHERE TILE ENDS */}
+
+            <div className="tiles-item reveal-from-bottom">
+              <div className="tiles-item-inner">
+                <div className="features-tiles-item-header">
+                  <div className="features-tiles-item-image mb-16">
+                    <a href="https://www.dziewuchyberlin.org/2022/03/01/we-stand-with-ukraine-support-and-useful-links/">
+                      <Image
+                        src={require("./../../assets/images/dziewuchy.png")}
+                        alt="Features tile icon 01"
+                        width={100}
+                        height={100}
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div className="features-tiles-item-content">
+                  <h4 className="mt-0 mb-8">Dziewuchy Berlin</h4>
+                  <p className="m-0 text-sm">
+                    Collective of polish feminist activists, collection of links
+                    in polish, partially in english language.
+                  </p>
+                </div>
+              </div>
+            </div>
 
             <div className="tiles-item reveal-from-bottom">
               <div className="tiles-item-inner">
@@ -558,7 +583,7 @@ const FeaturesTiles = ({
             <div className="tiles-item reveal-from-bottom">
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
-                  <div className="features-tiles-item-image mb-16">
+                  <div className=" mb-16">
                     <a href="https://www.gzf-berlin.org/?fbclid=IwAR128T4x6WIKTe0p-3KPgNdDaRLv-yLtSYnfvoJYToSNxMvZ6dmSqlxytxE">
                       <Image
                         src={require("./../../assets/images/gzf_logo.png")}
