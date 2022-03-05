@@ -1,7 +1,5 @@
-import React from "react";
-import Image from "../elements/Image";
-
-// Picture source doesnt't work, needs require("source")
+import React from 'react'
+import Image from '../elements/Image'
 
 const Tile = (props) => {
   return (
@@ -25,7 +23,7 @@ const Tile = (props) => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Tile;
+export default Tile
