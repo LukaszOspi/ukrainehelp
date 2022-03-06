@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import classNames from "classnames";
 import { Link } from "react-router-dom";
 import Logo from "./partials/Logo";
+import LocaleSwitcher from "../elements/LocaleSwitcher";
 
 const propTypes = {
   navPosition: PropTypes.string,
@@ -88,6 +89,10 @@ const Header = ({
           )}
         >
           <Logo />
+          <p onClick={closeMenu}>
+            {" "}
+            <LocaleSwitcher />
+          </p>
           {!hideNav && (
             <>
               <button
@@ -115,26 +120,28 @@ const Header = ({
                     </li>
                   </ul> */}
                   {!hideSignin && (
-                    <ul className="list-reset header-nav-right">
-                      <li>
-                        <Link
-                          to="./maps"
-                          className="button button-primary button-wide-mobile button-sm"
-                          onClick={closeMenu}
-                        >
-                          Map where to donate?
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          to="./tips"
-                          className="button button-primary button-wide-mobile button-sm"
-                          onClick={closeMenu}
-                        >
-                          How can I help? (German)
-                        </Link>
-                      </li>
-                    </ul>
+                    <>
+                      <ul className="list-reset header-nav-right">
+                        <li>
+                          <Link
+                            to="./maps"
+                            className="button button-primary button-wide-mobile button-sm"
+                            onClick={closeMenu}
+                          >
+                            Map where to donate?
+                          </Link>
+                        </li>
+                        <li>
+                          <Link
+                            to="./tips"
+                            className="button button-primary button-wide-mobile button-sm"
+                            onClick={closeMenu}
+                          >
+                            How can I help? (German)
+                          </Link>
+                        </li>
+                      </ul>
+                    </>
                   )}
                 </div>
               </nav>

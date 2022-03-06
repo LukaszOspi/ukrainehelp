@@ -1,0 +1,129 @@
+{
+  "tiles": [
+    {
+      "id": "yevropi",
+      "url": "https://www.yevropi.com/",
+      "pictureName": "yevropi.png"
+    },
+    {
+      "id": "adiuto",
+      "url": "https://www.adiuto.org/initiative/berlin-welcome-team",
+      "pictureName": "adiuto.jpeg"
+    },
+    {
+      "id": "iHelpYou",
+      "url": "https://app.ihelpyou.app/",
+      "pictureName": "ihelp.svg"
+    },
+    {
+      "id": "googleMaps",
+      "url": "https://www.google.com/maps/d/edit?mid=1HWGUIMiiMMhJY3QnTz3nXRMH8AZ85WHD&usp=sharing",
+      "pictureName": "maps.jpg"
+    },
+    {
+      "id": "telegram",
+      "url": "https://t.me/+pY4AEUY_0jZhMzQ0",
+      "pictureName": "ukraine-telegram.jpg"
+    },
+    {
+      "id": "infoBelgium",
+      "url": "https://linktr.ee/help.ua.from.be?fbclid=IwAR0eGWCsv8Vsk0INIB65bPI0bf3h97s7yc74LvsjnGRZ2pPBo1zIQq9Of_A",
+      "pictureName": "ukraina.jpg"
+    },
+    {
+      "id": "warmesBett",
+      "url": "https://warmes-bett.de/",
+      "pictureName": "ukraina.jpg"
+    },
+    {
+      "id": "berlinHilft",
+      "url": "https://berlin-hilft.com/ukraine/",
+      "pictureName": "berlin_hilft.jpeg"
+    },
+    {
+      "id": "gynecologist",
+      "url": "https://www.facebook.com/groups/519974361491243/permalink/2243831802438815/",
+      "pictureName": "redcross.png"
+    },
+    {
+      "id": "mitOst",
+      "url": "https://www.mitost.org/ukraine/",
+      "pictureName": "mitost.jpg"
+    },
+    {
+      "id": "wunderflats",
+      "url": "https://t.me/+pY4AEUY_0jZhMzQ0",
+      "pictureName": "wunderflats.png"
+    },
+    {
+      "id": "telegramMunich",
+      "url": "https://t.me/UkrainiansinMuc",
+      "pictureName": "ukraine-telegram.jpg"
+    },
+    {
+      "id": "shelterUA",
+      "url": "https://www.shelter4ua.com/",
+      "pictureName": "shelter.png"
+    },
+    {
+      "id": "unterkunftUkraine",
+      "url": "https://unterkunft-ukraine.de/",
+      "pictureName": "ukraina.jpg"
+    },
+    {
+      "id": "polishHomes",
+      "url": "https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.google.com%2Fmaps%2Fd%2Fviewer%3Fmid%3D168CYAtRoeK_YIEnD8PJm6dx17d09xrSN%26ll%3D54.05100947195975%252C20.161707266223132%26z%3D14%26fbclid%3DIwAR3eviSKVLu3arkXHMbydLKV0q7UxKmpvSZeSuAKOA2HxBu06BlqqwdIt1Y&h=AT38WA18qfZ9AwXbDIJ8FnFDgji_DJm1Zo9nOR4pdbnnSpfbEu6caW9GuTT4AlddVK7aKGM6qi-tqaSzkZ6hhEr-8CK1D-4lZo3gFvoNdiyIIVngcBH6RCEtxNV6k4nzSZLp-mWw1w&__tn__=R]-R&c[0]=AT0UbpC8HW8f__Zr23HdK0OEiCs7T7Pfbma2UuDDXxnxXMfsr3zJQIEiFOl5_K7cpZfYAvNvBZ-7JGUUutdKmoKAfRXnmLL4vFt-EdQRKHkoGVbwdBKKyIUKE48vuCpJnrDLC8-JhC_V4if5kPdiU7fRtuE",
+      "pictureName": "maps.jpg"
+    },
+    {
+      "id": "ukraineHelpBerlin",
+      "url": "https://linktr.ee/ukrainehelpberlin",
+      "pictureName": "ukraina.jpg"
+    },
+    {
+      "id": "pomagamUkrainie",
+      "url": "https://pomagamukrainie.gov.pl/",
+      "pictureName": "ukraina.jpg"
+    },
+    {
+      "id": "ukrainaServices",
+      "url": "https://ukraina.services/",
+      "pictureName": "ukraina.jpg"
+    },
+    {
+      "id": "documentUkrainian",
+      "url": "https://docs.google.com/document/d/14dfDMEOIEpuQGeD7y1Y-MOgrhNlXeCV7FlXKTl3cmNA/edit?usp=sharing",
+      "pictureName": "ukraina.jpg"
+    },
+    {
+      "id": "lawHelp",
+      "url": "https://t.me/ukrasylumrefugee",
+      "pictureName": "law_help.jpg"
+    },
+    {
+      "id": "telegramParis",
+      "url": "https://t.me/+KUk3d_a3w7dkYWI0",
+      "pictureName": "paris.jpg"
+    },
+    {
+      "id": "officialInformationUkrainianCitizens",
+      "url": "https://www.berlin.de/einwanderung/ueber-uns/aktuelles/artikel.1180210.php",
+      "pictureName": "berlin.jpg"
+    },
+    {
+      "id": "polishWebsiteRefugees",
+      "url": "https://pomagamukrainie.gov.pl/",
+      "pictureName": "godlo_polski.png"
+    },
+    {
+      "id": "healthCentreRefugees",
+      "url": "https://www.gzf-berlin.org/?fbclid=IwAR128T4x6WIKTe0p-3KPgNdDaRLv-yLtSYnfvoJYToSNxMvZ6dmSqlxytxE",
+      "pictureName": "gzf_logo.png"
+    },
+    {
+      "id": "additionalInfo",
+      "url": "https://tomaas.notion.site/Information-for-Ukrainians-0233533f1507494e92505f89a26aeba5",
+      "pictureName": "info_add.jpg"
+    }
+  ]
+}

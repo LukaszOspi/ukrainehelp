@@ -5,6 +5,7 @@ import SectionHeader from "./partials/SectionHeader";
 import Image from "../elements/Image";
 import Tile from "../elements/Tile";
 import Header from "../layout/Header";
+import { useTranslation } from "react-i18next";
 
 const propTypes = {
   ...SectionSplitProps.types,
@@ -55,6 +56,8 @@ const Tips = ({
     paragraph: "",
   };
 
+  const { t } = useTranslation();
+
   return (
     <section {...props} className={outerClasses}>
       <div className="container">
@@ -75,13 +78,13 @@ const Tips = ({
                     <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
                       Tips
                     </div>
-                    <h3 className="mt-0 mb-12">Tips and Links</h3>
+                    <h3 className="mt-0 mb-12">{t("tips.title")}</h3>
                     <p className="m-0">
                       1. Spenden:
                       <p>
                         • Vertrauenswürdige Organisationen, die gerade die
                         Ukraine unterstützen, an die oder über die man spenden
-                        kann (Danke Mona Richter):{" "}
+                        kann:{" "}
                         <a href="https://docs.google.com/document/d/11cO5DaZm8xxz0_o7RuPObsrfkPBXGsEW/edit?usp=sharing&ouid=107866144349041787881&rtpof=true&sd=true">
                           LINK TO GOOGLE DOC
                         </a>
