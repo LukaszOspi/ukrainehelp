@@ -57,6 +57,7 @@ const FeaturesTiles = ({
         <div className={innerClasses}>
           <SectionHeader data={sectionHeader} className="center-content" />
           <div className={tilesClasses}>
+
             {featuresTilesContent.tiles.map((tile, i) => (
               <Tile
                 key={`${tile.id}-${i}`}
