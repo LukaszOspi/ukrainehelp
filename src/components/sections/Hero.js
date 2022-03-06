@@ -1,19 +1,20 @@
-import React, { useState } from 'react'
-import classNames from 'classnames'
-import { SectionProps } from '../../utils/SectionProps'
-import ButtonGroup from '../elements/ButtonGroup'
-import Button from '../elements/Button'
-import Image from '../elements/Image'
-import Modal from '../elements/Modal'
-import { useTranslation } from 'react-i18next'
+import React, { useState } from "react";
+import classNames from "classnames";
+import { SectionProps } from "../../utils/SectionProps";
+import ButtonGroup from "../elements/ButtonGroup";
+import Button from "../elements/Button";
+import Image from "../elements/Image";
+import Modal from "../elements/Modal";
+import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 
 const propTypes = {
   ...SectionProps.types,
-}
+};
 
 const defaultProps = {
   ...SectionProps.defaults,
-}
+};
 
 const Hero = ({
   className,
@@ -25,33 +26,33 @@ const Hero = ({
   invertColor,
   ...props
 }) => {
-  const [videoModalActive, setVideomodalactive] = useState(false)
-  const { t } = useTranslation()
+  const [videoModalActive, setVideomodalactive] = useState(false);
+  const { t } = useTranslation();
 
   const openModal = (e) => {
-    e.preventDefault()
-    setVideomodalactive(true)
-  }
+    e.preventDefault();
+    setVideomodalactive(true);
+  };
 
   const closeModal = (e) => {
-    e.preventDefault()
-    setVideomodalactive(false)
-  }
+    e.preventDefault();
+    setVideomodalactive(false);
+  };
 
   const outerClasses = classNames(
-    'hero section center-content',
-    topOuterDivider && 'has-top-divider',
-    bottomOuterDivider && 'has-bottom-divider',
-    hasBgColor && 'has-bg-color',
-    invertColor && 'invert-color',
+    "hero section center-content",
+    topOuterDivider && "has-top-divider",
+    bottomOuterDivider && "has-bottom-divider",
+    hasBgColor && "has-bg-color",
+    invertColor && "invert-color",
     className
-  )
+  );
 
   const innerClasses = classNames(
-    'hero-inner section-inner',
-    topDivider && 'has-top-divider',
-    bottomDivider && 'has-bottom-divider'
-  )
+    "hero-inner section-inner",
+    topDivider && "has-top-divider",
+    bottomDivider && "has-bottom-divider"
+  );
 
   return (
     <section {...props} className={outerClasses}>
@@ -62,7 +63,7 @@ const Hero = ({
               className="mt-0 mb-16 reveal-from-bottom"
               data-reveal-delay="200"
             >
-              {`${t('hero.welcome')} `}
+              {`${t("hero.welcome")} `}
               <span className="text-color-primary">ukraineaid</span>
             </h1>
             <div className="container-xs">
@@ -70,20 +71,20 @@ const Hero = ({
                 className="m-0 mb-32 reveal-from-bottom"
                 data-reveal-delay="400"
               >
-                {`${t('hero.findInfo')}.`}
+                {`${t("hero.findInfo")}.`}
               </p>
-              <p>{t('hero.helping')}</p>
+              <p>{t("hero.helping")}</p>
               <p>
                 <a href="https://goo.gl/maps/HqttvYu8Y4LPWv4q8">
-                  {t('hero.firstContactAddress')}
+                  {t("hero.firstContactAddress")}
                 </a>
-                {` - ${t('hero.arrival')}. `}
+                {` - ${t("hero.arrival")}. `}
                 <a href="https://www.berlin.de/laf/ankommen/#:~:text=Bitte%20melden%20Sie%20sich%20zun%C3%A4chst,Bonhoeffer%2DNervenklinik%20in%20Haus%202.">
-                  {t('hero.cityInfo')}
+                  {t("hero.cityInfo")}
                 </a>
               </p>
 
-              <p>{`${t('hero.questionnaires')}:`}</p>
+              <p>{`${t("hero.questionnaires")}:`}</p>
 
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
@@ -93,7 +94,7 @@ const Hero = ({
                     wideMobile
                     href="https://unterkunft-ukraine.de/request"
                   >
-                    {t('hero.needAccommodation')}
+                    {t("hero.needAccommodation")}
                   </Button>
                   <Button
                     tag="a"
@@ -101,13 +102,13 @@ const Hero = ({
                     wideMobile
                     href="https://unterkunft-ukraine.de/offer"
                   >
-                    {t('hero.haveAccommodation')}
+                    {t("hero.haveAccommodation")}
                   </Button>
                 </ButtonGroup>
               </div>
               <p> </p>
               <div>
-                <p>{`${t('hero.links')}:`}</p>
+                <p>{`${t("hero.links")}:`}</p>
               </div>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
@@ -117,7 +118,7 @@ const Hero = ({
                     wideMobile
                     href="https://t.me/teamzob"
                   >
-                    {t('hero.zob')}
+                    {t("hero.zob")}
                   </Button>
                   <Button
                     tag="a"
@@ -125,7 +126,7 @@ const Hero = ({
                     wideMobile
                     href="https://t.me/BerlinHbfArrival"
                   >
-                    {t('hero.hbf')}
+                    {t("hero.hbf")}
                   </Button>
                   <Button
                     tag="a"
@@ -133,7 +134,7 @@ const Hero = ({
                     wideMobile
                     href="https://t.me/teamsuedkreuz"
                   >
-                    Greet and Meet Südkreuz
+                    {t("hero.sued")}
                   </Button>
                   <Button
                     tag="a"
@@ -141,7 +142,7 @@ const Hero = ({
                     wideMobile
                     href="https://t.me/arrivalostbahnhof"
                   >
-                    Greet and Meet Ostbahnhof
+                    {t("hero.ost")}
                   </Button>
                 </ButtonGroup>
               </div>
@@ -152,7 +153,16 @@ const Hero = ({
             data-reveal-value="20px"
             data-reveal-delay="800"
           >
-            <a
+            <a href="https://ra.co/events/1508633">
+              <Image
+                className="has-shadow"
+                src={require("./../../assets/images/soliparty.jpg")}
+                alt="Soliparty"
+                width={896}
+                height={504}
+              />
+            </a>
+            {/*             <a
               data-video="https://www.youtube.com/watch?v=OP-R9uf5Nog"
               href="#0"
               aria-controls="video-modal"
@@ -160,7 +170,7 @@ const Hero = ({
             >
               <Image
                 className="has-shadow"
-                src={require('./../../assets/images/ukraina.jpg')}
+                src={require("./../../assets/images/ukraina.jpg")}
                 alt="Hero"
                 width={896}
                 height={504}
@@ -174,13 +184,15 @@ const Hero = ({
             video="https://player.vimeo.com/video/682905671"
             videoTag="iframe"
           />
+        </div> */}
+          </div>
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-Hero.propTypes = propTypes
-Hero.defaultProps = defaultProps
+Hero.propTypes = propTypes;
+Hero.defaultProps = defaultProps;
 
-export default Hero
+export default Hero;

@@ -1,14 +1,12 @@
 import React from "react";
 import Image from "../elements/Image";
 
-// Picture source doesnt't work, needs require("source")
-
 const Tile = (props) => {
   return (
     <div className="tiles-item reveal-from-bottom">
       <div className="tiles-item-inner">
         <div className="features-tiles-item-header">
-          <div className="features-tiles-item-image mb-16">
+          <div className=" mb-16">
             <a href={props.url}>
               <Image
                 src={props.picture}

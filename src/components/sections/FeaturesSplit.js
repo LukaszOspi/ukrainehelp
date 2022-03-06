@@ -65,24 +65,9 @@ const FeaturesSplit = ({
                 className="split-item-content center-content-mobile reveal-from-left"
                 data-reveal-container=".split-item"
               >
-                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  FACEBOOK INITIATIVES
-                </div>
-                <h3 className="mt-0 mb-12"></h3>
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-8"></div>
+                <h3 className="mt-0 mb-12">Other initiatives</h3>
                 <p className="m-0">
-                  {/*   <div>
-                    <Tile
-                      picture="require(./../../assets/images/helpbus.png)"
-                      url="https://www.facebook.com/oksana.levytska.5/posts/10217961595026019"
-                      alt="Facebook code"
-                      h="150"
-                      w="150"
-                      title="Private person collecting donations"
-                      text="Contact on facebook to a person that collects physical
-                          donations from your home."
-                    />
-                  </div> */}
-
                   <div className="tiles-item reveal-from-bottom">
                     <div className="tiles-item-inner">
                       <div className="features-tiles-item-header">
