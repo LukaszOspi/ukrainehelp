@@ -1,0 +1,133 @@
+{
+  "hero": {
+    "welcome": "Willkommen bei",
+    "findInfo": "DE Here you can find some information about how to help or how to GET help in Berlin, Germany or beyond. Please check our website regularly, the content is getting updated on a daily basis",
+    "helping": "DE If you are interested in helping to develop the website or have useful links, please contact through links on the bottom (instagram, telegram)",
+    "firstContactAddress": "DE First Contact Address",
+    "arrival": "DE go there after arrival into Berlin",
+    "cityInfo": "DE Berlin City info in GER, UKR, RUS",
+    "questionnaires": "DE Here are direct links to questionnaires to fill out (directly from unterkunft-ukraine.de)",
+    "needAccommodation": "DE I need accommodation",
+    "haveAccommodation": "DE I have accommodation",
+    "links": "DE Here links to Telegram Groups in Berlin",
+    "zob": "DE Greet and Meet ZOB",
+    "hbf": "DE Greet and Meet HBF"
+  },
+  "tips": {
+    "title": "DE Tips and Links"
+  },
+  "featuresTiles": {
+    "title": "HOW CAN YOU HELP",
+    "paragraph": "There is plenty of links here",
+    "googleMaps": {
+      "title": "Donate in Berlin",
+      "text": "Places where you can go with your donation in Berlin on Google Maps",
+      "alt": "Google Maps"
+    },
+    "telegram": {
+      "title": "Join Telegram Group",
+      "text": "Click on the image to join the Telegram group for Ukrainians that look for accommodation in Berlin",
+      "alt": "Features tile icon 01"
+    },
+    "infoBelgium": {
+      "title": "Help in Belgium",
+      "text": "Website with information from Belgium",
+      "alt": "Info Belgium"
+    },
+    "warmesBett": {
+      "title": "Warmes-Bett.de",
+      "text": "Offers warm beds for refugees, search engine, in German",
+      "alt": "Warmes Bett"
+    },
+    "berlinHilft": {
+      "title": "Berlin Hilft",
+      "text": "Berlin Helps, collaboration for refugees, some info also in Ukrainian",
+      "alt": "Berlin Hilft"
+    },
+    "gynecologist": {
+      "title": "Gynecologist",
+      "text": "Ukrainian speaking Gynecologist in Berlin that offers help, link for FB",
+      "alt": "Gynecologist"
+    },
+    "mitOst": {
+      "title": "MitOst e.V.",
+      "text": "Organization that collects donations for Ukraine",
+      "alt": "MitOst"
+    },
+    "wunderflats": {
+      "title": "Accomodation in Germany Wunderflats (link in UKR)",
+      "text": "Wunderflats is a big company offering short term apartments. Most of the offers are for free, many under 500€ per month",
+      "alt": "Wunderflats"
+    },
+    "telegramMunich": {
+      "title": "Telegram group Munich",
+      "text": "Click on the image to join the Telegram group for Ukrainians that look for accomodation in Munich (München)",
+      "alt": "Features tile icon 01"
+    },
+    "shelterUA": {
+      "title": "Shelter for Ukraine",
+      "text": "New website for shelters, both for those who seek and those who offer",
+      "alt": "Shelter for UA"
+    },
+    "unterkunftUkraine": {
+      "title": "Unterkunft Ukraine",
+      "text": "Berlin based website for housing - both offers and requests. In co-operation with GLS Bank and Ecosia, probably data protection compliant",
+      "alt": "Unterkunft Ukraine"
+    },
+    "polishHomes": {
+      "title": "Polish Homes",
+      "text": "Provisional map of homes offering accommodation IN POLAND",
+      "alt": "Polish Homes"
+    },
+    "ukraineHelpBerlin": {
+      "title": "Ukraine Help Berlin",
+      "text": "Website of Berlin organization for Ukrainian people, with loads of resources",
+      "alt": "Ukraine Help Berlin"
+    },
+    "pomagamUkrainie": {
+      "title": "Pomagam Ukrainie",
+      "text": "Polish government website for both those who want to help and those who need help (UKRAINIAN LANGUAGE)",
+      "alt": "Pomagam Ukrainie"
+    },
+    "ukrainaServices": {
+      "title": "Ukraina Services",
+      "text": "Website in Polish, English and Ukrainian summarizing possibilities available in Poland",
+      "alt": "Ukraina Services"
+    },
+    "documentUkrainian": {
+      "title": "Document in Ukrainian",
+      "text": "15 pages of a document in Ukrainian language with all important information for refugees",
+      "alt": "Document UKR"
+    },
+    "lawHelp": {
+      "title": "Lawyer's help",
+      "text": "If you are looking for legal advice",
+      "alt": "Lawyer's help"
+    },
+    "telegramParis": {
+      "title": "Paris Telegram",
+      "text": "Join the Telegram Group for helpers in Paris, France",
+      "alt": "Image of Paris"
+    },
+    "officialInformationUkrainianCitizens": {
+      "title": "Official Information for Ukrainian Citizens",
+      "text": "Website from Berlin City in German, English and Ukrainian providing information about current rules and help offered by state and city itself",
+      "alt": "Logo of City Berlin"
+    },
+    "polishWebsiteRefugees": {
+      "title": "Polish website for Ukrainian Refugees",
+      "text": "Available in both Polish and Ukrainian. For those in Poland and Ukraine, who want to help and need help",
+      "alt": "Polish national sign"
+    },
+    "healthCentreRefugees": {
+      "title": "Health Centre for Refugees",
+      "text": "Go-to place for psychological help dedicated to refugees. Website in German",
+      "alt": "GZF Logo"
+    },
+    "additionalInfo": {
+      "title": "Additional Information",
+      "text": "External Website with additional information",
+      "alt": "Tomaas Website Notion"
+    }
+  }
+}
