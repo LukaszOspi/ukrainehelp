@@ -1,18 +1,18 @@
-import React from 'react'
-import classNames from 'classnames'
-import { SectionTilesProps } from '../../utils/SectionProps'
-import SectionHeader from './partials/SectionHeader'
-import Tile from '../elements/Tile'
-import { useTranslation } from 'react-i18next'
-import featuresTilesContent from '../../content/featuresTiles.json'
+import React from "react";
+import classNames from "classnames";
+import { SectionTilesProps } from "../../utils/SectionProps";
+import SectionHeader from "./partials/SectionHeader";
+import Tile from "../elements/Tile";
+import { useTranslation } from "react-i18next";
+import featuresTilesContent from "../../content/featuresTiles.json";
 
 const propTypes = {
   ...SectionTilesProps.types,
-}
+};
 
 const defaultProps = {
   ...SectionTilesProps.defaults,
-}
+};
 const FeaturesTiles = ({
   className,
   topOuterDivider,
@@ -24,32 +24,32 @@ const FeaturesTiles = ({
   pushLeft,
   ...props
 }) => {
-  const { t } = useTranslation()
+  const { t } = useTranslation();
 
   const outerClasses = classNames(
-    'features-tiles section',
-    topOuterDivider && 'has-top-divider',
-    bottomOuterDivider && 'has-bottom-divider',
-    hasBgColor && 'has-bg-color',
-    invertColor && 'invert-color',
+    "features-tiles section",
+    topOuterDivider && "has-top-divider",
+    bottomOuterDivider && "has-bottom-divider",
+    hasBgColor && "has-bg-color",
+    invertColor && "invert-color",
     className
-  )
+  );
 
   const innerClasses = classNames(
-    'features-tiles-inner section-inner pt-0',
-    topDivider && 'has-top-divider',
-    bottomDivider && 'has-bottom-divider'
-  )
+    "features-tiles-inner section-inner pt-0",
+    topDivider && "has-top-divider",
+    bottomDivider && "has-bottom-divider"
+  );
 
   const tilesClasses = classNames(
-    'tiles-wrap center-content',
-    pushLeft && 'push-left'
-  )
+    "tiles-wrap center-content",
+    pushLeft && "push-left"
+  );
 
   const sectionHeader = {
-    title: t('featuresTiles.title'),
-    paragraph: t('featuresTiles.paragraph'),
-  }
+    title: t("featuresTiles.title"),
+    paragraph: t("featuresTiles.paragraph"),
+  };
 
   return (
     <section {...props} className={outerClasses}>
@@ -71,27 +71,14 @@ const FeaturesTiles = ({
                 h={100}
               />
             ))}
-
-            {/*        <div>
-              <Tile
-                picture="./../../assets/images/oxana.jpg"
-                url="https://www.facebook.com/oksana.levytska.5/posts/10217961595026019"
-                alt="Facebook code"
-                h="150"
-                w="150"
-                title="Private person collecting donations"
-                text="Contact on facebook to a person that collects physical
-                          donations from your home."
-              />
-            </div> */}
           </div>
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-FeaturesTiles.propTypes = propTypes
-FeaturesTiles.defaultProps = defaultProps
+FeaturesTiles.propTypes = propTypes;
+FeaturesTiles.defaultProps = defaultProps;
 
-export default FeaturesTiles
+export default FeaturesTiles;
