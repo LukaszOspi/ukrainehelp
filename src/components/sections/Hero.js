@@ -153,7 +153,7 @@ const Hero = ({
             data-reveal-value="20px"
             data-reveal-delay="800"
           >
-            <a href="https://ra.co/events/1508633">
+            {/*           <a href="https://ra.co/events/1508633">
               <Image
                 className="has-shadow"
                 src={require("./../../assets/images/soliparty.jpg")}
@@ -161,8 +161,8 @@ const Hero = ({
                 width={896}
                 height={504}
               />
-            </a>
-            {/*             <a
+            </a> */}
+            <a
               data-video="https://www.youtube.com/watch?v=OP-R9uf5Nog"
               href="#0"
               aria-controls="video-modal"
@@ -184,8 +184,6 @@ const Hero = ({
             video="https://player.vimeo.com/video/682905671"
             videoTag="iframe"
           />
-        </div> */}
-          </div>
         </div>
       </div>
     </section>
