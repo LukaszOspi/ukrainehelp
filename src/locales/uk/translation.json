@@ -18,7 +18,23 @@
   "tips": {
     "title": "Поради та посилання"
   },
+
   "featuresTiles": {
+    "okopress": {
+      "title": "Article about help in Poland",
+      "text": "Tips in Ukrainian and Polish about help provided in Poland",
+      "alt": "oko press logo"
+    },
+    "commission": {
+      "title": "European Commission Info",
+      "text": "Comprehensive and complex information in Ukrainian for refugees seeking asylum in Europe provided by European Commission, with interactive map",
+      "alt": "european commission logo"
+    },
+    "united": {
+      "title": "United for Ukraine",
+      "text": "Website offering help with accomodation, legal issues and psychological support in many european countries",
+      "alt": "yevropi"
+    },
     "title": "ЯК ВИ МОЖЕТЕ ДОПОМОГТИ",
     "paragraph": "Тут є багато посилань",
     "yevropi": {
