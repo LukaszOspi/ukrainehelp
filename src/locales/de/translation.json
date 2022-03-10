@@ -19,6 +19,21 @@
     "title": "Tips und Links"
   },
   "featuresTiles": {
+    "okopress": {
+      "title": "Article about help in Poland",
+      "text": "Tips in Ukrainian and Polish about help provided in Poland",
+      "alt": "oko press logo"
+    },
+    "commission": {
+      "title": "European Commission Info",
+      "text": "Sehr viele Informationen in verschiedenen Sprachen bezuglich Asylrecht in Europa und wie man sich auf die Flucht vorbereiten kann",
+      "alt": "european commission logo"
+    },
+    "united": {
+      "title": "United for Ukraine",
+      "text": "Suchmaschine fuer Wohnung, Juristen und Psychologische Hilfe auf Englisch und Ukrainisch in verschiedenen Europäischen Ländern",
+      "alt": "united for ukraine"
+    },
     "yevropi": {
       "title": "Yevropi.com",
       "text": "Ein Portal, wo man einen Wohnraum anbieten und suchen kann",

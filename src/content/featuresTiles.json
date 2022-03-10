@@ -1,6 +1,21 @@
 {
   "tiles": [
     {
+      "id": "okopress",
+      "url": "https://oko.press/%D0%B4%D0%B5-%D0%BC%D0%BE%D0%B6%D1%83%D1%82%D1%8C-%D1%88%D1%83%D0%BA%D0%B0%D1%82%D0%B8-%D0%B4%D0%BE%D0%BF%D0%BE%D0%BC%D0%BE%D0%B3%D0%B8-%D0%B3%D1%80%D0%BE%D0%BC%D0%B0%D0%B4%D1%8F%D0%BD%D0%B8-%D1%83/?fbclid=IwAR1AeriPbcyW9uEmEda0HuToRVZ4IaW2f83LrfaHTTkQlzzx6Tzyv_dplpU ",
+      "pictureName": "oko.png"
+    },
+    {
+      "id": "commission",
+      "url": "https://ec.europa.eu/info/strategy/priorities-2019-2024/stronger-europe-world/eu-solidarity-ukraine/eu-assistance-ukraine/information-people-fleeing-war-ukraine_uk ",
+      "pictureName": "eu.svg"
+    },
+    {
+      "id": "united",
+      "url": "https://unitedforukraine.org ",
+      "pictureName": "united.png"
+    },
+    {
       "id": "yevropi",
       "url": "https://www.yevropi.com/",
       "pictureName": "yevropi.png"
