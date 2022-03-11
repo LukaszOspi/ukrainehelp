@@ -19,6 +19,11 @@
     "title": "Tips und Links"
   },
   "featuresTiles": {
+    "jameda": {
+      "title": "Ukrainischsprachige Ärzte",
+      "text": "Suchmaschine für Ärzte, die Ukrainisch oder Russisch sprechen",
+      "alt": "jameda logo"
+    },
     "okopress": {
       "title": "Article about help in Poland",
       "text": "Tips in Ukrainian and Polish about help provided in Poland",
