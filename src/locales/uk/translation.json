@@ -20,6 +20,11 @@
   },
 
   "featuresTiles": {
+    "jameda": {
+      "title": "Ukrainian speaking doctors",
+      "text": "Search engine for doctors and medical staff that speaks Ukrainian or Russian",
+      "alt": "jameda logo"
+    },
     "okopress": {
       "title": "Article about help in Poland",
       "text": "Tips in Ukrainian and Polish about help provided in Poland",
