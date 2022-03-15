@@ -3,6 +3,8 @@
     "welcome": "Ласкаво просимо !",
     "findInfo": "Тут ви можете знайти деяку інформацію про те, як допомогти або як ОТРИМАТИ допомогу в Берліні, Німеччині або за її межами. Будь ласка, регулярно перевіряйте наш веб-сайт, оновлюється щодня,",
     "helping": "Якщо ви зацікавлені в допомозі розробити веб-сайт або маєте корисні посилання, будь ласка, зв’яжіться з посиланнями внизу (instagram, telegram)",
+    "telephone": "Central, official phone number for Ukrainian refugees (in RUS and UKR):",
+    "telephoneNum": "+49 30 9012 7127",
     "firstContactAddress": "Aдреса для першого контакту",
     "arrival": "Ідіть туди після прибуття в Берлін",
     "cityInfo": "Інформація про місто Berlin в наступних мовах GER, UKR, RUS",
@@ -20,6 +22,16 @@
   },
 
   "featuresTiles": {
+    "registerBerlin": {
+      "title": "Registration in Berlin",
+      "text": "Instructions step by step on how to register as an Ukrainian refugee in Berlin (in German)",
+      "alt": "register in Berlin"
+    },
+    "krisenchat": {
+      "title": "Krisenchat for Children",
+      "text": "Whatsapp or SMS: free psychological counseling for children provided by krisenchat.de from Berlin RUS + UKR",
+      "alt": "krisenchat.de"
+    },
     "jameda": {
       "title": "Ukrainian speaking doctors",
       "text": "Search engine for doctors and medical staff that speaks Ukrainian or Russian",

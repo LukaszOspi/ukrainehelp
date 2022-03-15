@@ -1,6 +1,16 @@
 {
   "tiles": [
     {
+      "id": "registerBerlin",
+      "url": "https://service.berlin.de/dienstleistung/330869/?fbclid=IwAR2BeZEXxctl30uWnGdDh1UPSUcTRCsGliJvbNQlT8cr4GJwcYx_1TZgMaM",
+      "pictureName": "ukraina.jpg"
+    },
+    {
+      "id": "krisenchat",
+      "url": "https://krisenchat.de/ukraine",
+      "pictureName": "ukraina.jpg"
+    },
+    {
       "id": "jameda",
       "url": "https://www.jameda.de/ukraine ",
       "pictureName": "jameda.png"

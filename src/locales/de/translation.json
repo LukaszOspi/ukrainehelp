@@ -2,6 +2,8 @@
   "hero": {
     "welcome": "Willkommen bei",
     "findInfo": "Hier kannst Du Informationen finden, wie man in Berlin und ganz Deutschland helfen kann. Schau bitte jeden Tag vorbei, wir aktualisieren die Webseite ständig.",
+    "telephone": "Offizielle Telefonnumer für Geflüchtete aus der Ukraine in Berlin (in RUS und UKR):",
+    "telephoneNum": "+49 30 9012 7127",
     "helping": "Wenn Du Interesse hast mitzumachen, oder wichtige Links teilen möchtest, kontaktiere uns per Instagram oder Telegram. Links sind ganz unten.",
     "firstContactAddress": "Adresse für Neuankömmlinge",
     "arrival": "Gehe dort, nachdem Du in Berlin angekommen bist",
@@ -19,6 +21,16 @@
     "title": "Tips und Links"
   },
   "featuresTiles": {
+    "registerBerlin": {
+      "title": "Registrierung in Berlin",
+      "text": "Schritt für Schritt Instruktionen zur Registrierung als Schutzsuchende in Berlin",
+      "alt": "register in Berlin"
+    },
+    "krisenchat": {
+      "title": "Krisenchat für Kinder",
+      "text": "Whatsapp oder SMS: kostenloser psychologischer Service (krisenchat.de aus Berlin) für Kinder in der Krise, RUS + UKR",
+      "alt": "krisenchat.de"
+    },
     "jameda": {
       "title": "Ukrainischsprachige Ärzte",
       "text": "Suchmaschine für Ärzte, die Ukrainisch oder Russisch sprechen",
