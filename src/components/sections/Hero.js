@@ -77,7 +77,7 @@ const Hero = ({
 
               <p>
                 {t("hero.telephone")}
-                <a href="tel=+493090127127">{t("hero.telephoneNum")}</a>
+                <a href="tel:+493090127127">{t("hero.telephoneNum")}</a>
               </p>
               <p>
                 <a href="https://goo.gl/maps/HqttvYu8Y4LPWv4q8">

@@ -21,6 +21,21 @@
     "title": "Tips und Links"
   },
   "featuresTiles": {
+    "ministry": {
+      "title": "Commissioner for Migration",
+      "text": "Website of the Commissioner of the Federal Government for Migration and Refugees, step by step information of how to take first steps in Germany (GER, ENG, UKR)",
+      "alt": "Ukraine take shelter"
+    },
+    "shelter": {
+      "title": "Ukraine Take Shelter",
+      "text": "Looking for accomodation? Offering one? Just enter your city and find or offer place to stay (many languages)",
+      "alt": "Ukraine take shelter"
+    },
+    "germany4ukraine": {
+      "title": "Germany 4 Ukraine",
+      "text": "Offizielle Webseite des Bundesmnisteriums des Innern, aktuelle Informationen für Flüchtlinge auf Ukrainisch, Englisch und Deutsch",
+      "alt": "germany4ukraine"
+    },
     "registerBerlin": {
       "title": "Registrierung in Berlin",
       "text": "Schritt für Schritt Instruktionen zur Registrierung als Schutzsuchende in Berlin",

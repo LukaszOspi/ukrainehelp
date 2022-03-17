@@ -1,6 +1,21 @@
 {
   "tiles": [
     {
+      "id": "ministry",
+      "url": "https://www.integrationsbeauftragte.de/ib-de/staatsministerin/krieg-in-der-ukraine",
+      "pictureName": "ministry.png"
+    },
+    {
+      "id": "shelter",
+      "url": "https://www.ukrainetakeshelter.com/",
+      "pictureName": "take_shelter.png"
+    },
+    {
+      "id": "germany4ukraine",
+      "url": "https://www.germany4ukraine.de/hilfeportal-ua",
+      "pictureName": "innern.svg"
+    },
+    {
       "id": "registerBerlin",
       "url": "https://service.berlin.de/dienstleistung/330869/?fbclid=IwAR2BeZEXxctl30uWnGdDh1UPSUcTRCsGliJvbNQlT8cr4GJwcYx_1TZgMaM",
       "pictureName": "ukraina.jpg"
