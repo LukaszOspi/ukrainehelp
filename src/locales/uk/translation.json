@@ -3,12 +3,12 @@
     "welcome": "Ласкаво просимо !",
     "findInfo": "Тут ви можете знайти деяку інформацію про те, як допомогти або як ОТРИМАТИ допомогу в Берліні, Німеччині або за її межами. Будь ласка, регулярно перевіряйте наш веб-сайт, оновлюється щодня,",
     "helping": "Якщо ви зацікавлені в допомозі розробити веб-сайт або маєте корисні посилання, будь ласка, зв’яжіться з посиланнями внизу (instagram, telegram)",
-    "telephone": "Central, official phone number for Ukrainian refugees (in RUS and UKR):",
+    "telephone": "Эдини контактний номер телефону для біженців з України (UA та RU) :",
     "telephoneNum": "+49 30 9012 7127",
     "firstContactAddress": "Aдреса для першого контакту",
     "arrival": "Ідіть туди після прибуття в Берлін",
     "cityInfo": "Інформація про місто Berlin в наступних мовах GER, UKR, RUS",
-    "questionnaires": "Ось прямі посилання на анкети для заповнення (безпосередньо з unterkunft-ukraine.de)",
+    "questionnaires": "Ось прямі посилання на анкети для заповнення (безпосередньо з unterkunft-ukraine.de)",
     "needAccommodation": "Мені потрібне житло",
     "haveAccommodation": "Я маю житло",
     "links": "Тут посилання на групи в Telegram  Берліну",
@@ -22,49 +22,34 @@
   },
 
   "featuresTiles": {
-    "ministry": {
-      "title": "Commissioner for Migration",
-      "text": "Website of the Commissioner of the Federal Government for Migration and Refugees, step by step information of how to take first steps in Germany (GER, ENG, UKR)",
-      "alt": "Ukraine take shelter"
-    },
-    "shelter": {
-      "title": "Ukraine Take Shelter",
-      "text": "Looking for accomodation? Offering one? Just enter your city and find or offer place to stay (many languages)",
-      "alt": "Ukraine take shelter"
-    },
-    "germany4ukraine": {
-      "title": "Germany 4 Ukraine",
-      "text": "Official website from the Federal Ministry of the Interior, most recent and exact information available (UKR, ENG, GER)",
-      "alt": "germany4ukraine"
-    },
     "registerBerlin": {
-      "title": "Registration in Berlin",
-      "text": "Instructions step by step on how to register as an Ukrainian refugee in Berlin (in German)",
+      "title": "Реєстрація у Берліні",
+      "text": "Покрокові інструкції, як зареєструватися у Берліні як біженець з України (німецькою)  Instructions step by step on how to register as an Ukrainian refugee in Berlin (in German)",
       "alt": "register in Berlin"
     },
     "krisenchat": {
-      "title": "Krisenchat for Children",
-      "text": "Whatsapp or SMS: free psychological counseling for children provided by krisenchat.de from Berlin RUS + UKR",
+      "title": "Кризовий чат для дітей",
+      "text": "Whatsapp або SMS: безкоштовні психологічні консультації для дітей від krisenchat.de з Берліну (UKR та RUS)",
       "alt": "krisenchat.de"
     },
     "jameda": {
-      "title": "Ukrainian speaking doctors",
-      "text": "Search engine for doctors and medical staff that speaks Ukrainian or Russian",
+      "title": "Україномовні лікарі",
+      "text": "Пошукова система для лікарів та медичного персоналу, які розмовляють українською або російською",
       "alt": "jameda logo"
     },
     "okopress": {
-      "title": "Article about help in Poland",
-      "text": "Tips in Ukrainian and Polish about help provided in Poland",
+      "title": "Стаття про допомогу у Польщі",
+      "text": "Корисні підказки українською та польською про допомогу, яка надається у Польщі",
       "alt": "oko press logo"
     },
     "commission": {
-      "title": "European Commission Info",
-      "text": "Comprehensive and complex information in Ukrainian for refugees seeking asylum in Europe provided by European Commission, with interactive map",
+      "title": "Інформація від  Європейської комісії",
+      "text": "Вичерпна та комплексна інформація українською мовою для біженців, які шукають притулку в Європі, надана Європейською комісією, з інтерактивною картою",
       "alt": "european commission logo"
     },
     "united": {
       "title": "United for Ukraine",
-      "text": "Website offering help with accomodation, legal issues and psychological support in many european countries",
+      "text": "Веб-сайт, який пропонує допомогу з житлом, юридичними питаннями та психологічною підтримкою в багатьох країнах Європи",
       "alt": "yevropi"
     },
     "title": "ЯК ВИ МОЖЕТЕ ДОПОМОГТИ",
