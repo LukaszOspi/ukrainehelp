@@ -12,16 +12,26 @@
     "needAccommodation": "Мені потрібне житло",
     "haveAccommodation": "Я маю житло",
     "links": "Тут посилання на групи в Telegram  Берліну",
-    "zob": "Місце зустрічі на головному австобусному вокзалі Берліну",
-    "hbf": "Місце зустрічі на головному залізничному вокзалі Берліну",
-    "sued": "Місце зустрічі на  вокзалі Südkreuz (Південний)",
-    "ost": "Місце зустрічі на  вокзалі Ostkreuz (Східний)"
+    "zob": "Місце зустрічі на ZOB",
+    "hbf": "Місце зустрічі на HBF",
+    "sued": "Місце зустрічі на вокзалі Südkreuz",
+    "ost": "Місце зустрічі на вокзалі Ostkreuz"
   },
   "tips": {
     "title": "Поради та посилання"
   },
 
   "featuresTiles": {
+    "rotary": {
+      "title": "Rotary Club Accomodation",
+      "text": "Place to offer and look for accomodation in Europe, initiated by Rotary Club Berlin & International",
+      "alt": "Rotary Club"
+    },
+    "ostauschuss": {
+      "title": "Job Portal",
+      "text": "Search engine by 'Ostauschuss Der deutschen Wirtschaft' for jobs in Germany offered to ukrainian refugees, mainly IT",
+      "alt": "Gu-Dp"
+    },
     "registerBerlin": {
       "title": "Реєстрація у Берліні",
       "text": "Покрокові інструкції, як зареєструватися у Берліні як біженець з України (німецькою)  Instructions step by step on how to register as an Ukrainian refugee in Berlin (in German)",
