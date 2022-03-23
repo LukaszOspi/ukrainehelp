@@ -1,6 +1,16 @@
 {
   "tiles": [
     {
+      "id": "rotary",
+      "url": "https://www.spacesforukraine.org/",
+      "pictureName": "rotary.jpg"
+    },
+    {
+      "id": "ostauschuss",
+      "url": "https://jobs.gu-dp.com/",
+      "pictureName": "oa.jpg"
+    },
+    {
       "id": "ministry",
       "url": "https://www.integrationsbeauftragte.de/ib-de/staatsministerin/krieg-in-der-ukraine",
       "pictureName": "ministry.png"
@@ -13,7 +23,7 @@
     {
       "id": "germany4ukraine",
       "url": "https://www.germany4ukraine.de/hilfeportal-ua",
-      "pictureName": "innern.svg"
+      "pictureName": "innern.jpg"
     },
     {
       "id": "registerBerlin",
@@ -38,7 +48,7 @@
     {
       "id": "commission",
       "url": "https://ec.europa.eu/info/strategy/priorities-2019-2024/stronger-europe-world/eu-solidarity-ukraine/eu-assistance-ukraine/information-people-fleeing-war-ukraine_uk ",
-      "pictureName": "eu.svg"
+      "pictureName": "eu.png"
     },
     {
       "id": "united",
@@ -58,7 +68,7 @@
     {
       "id": "iHelpYou",
       "url": "https://app.ihelpyou.app/",
-      "pictureName": "ihelp.svg"
+      "pictureName": "ihelp.png"
     },
     {
       "id": "googleMaps",

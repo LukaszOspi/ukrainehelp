@@ -21,6 +21,16 @@
     "title": "Tips und Links"
   },
   "featuresTiles": {
+    "rotary": {
+      "title": "Rotary Club Accomodation",
+      "text": "Place to offer and look for accomodation in Europe, initiated by Rotary Club Berlin & International",
+      "alt": "Rotary Club"
+    },
+    "ostauschuss": {
+      "title": "Job Portal",
+      "text": "Search engine by 'Ostauschuss Der deutschen Wirtschaft' for jobs in Germany offered to ukrainian refugees, mainly IT",
+      "alt": "Gu-Dp"
+    },
     "ministry": {
       "title": "Commissioner for Migration",
       "text": "Website of the Commissioner of the Federal Government for Migration and Refugees, step by step information of how to take first steps in Germany (GER, ENG, UKR)",
