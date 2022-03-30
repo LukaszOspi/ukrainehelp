@@ -13,15 +13,28 @@
     "haveAccommodation": "Я маю житло",
     "links": "Тут посилання на групи в Telegram  Берліну",
     "zob": "Місце зустрічі на ZOB",
-    "hbf": "Місце зустрічі на HBF",
-    "sued": "Місце зустрічі на вокзалі Südkreuz",
-    "ost": "Місце зустрічі на вокзалі Ostkreuz"
+    "hbf": "Місце зустрічі на HBF"
   },
   "tips": {
     "title": "Поради та посилання"
   },
 
   "featuresTiles": {
+    "gfps": {
+      "title": "GFPS Support Group",
+      "text": "German Organisation for Student's Interchange providing useful links and support for academics",
+      "alt": "GFPS Support"
+    },
+    "db": {
+      "title": "Detusche Bahn",
+      "text": "Webpage of German Rail in Ukrainian with job offers for refugees from Ukraine",
+      "alt": "Deutsche Bahn"
+    },
+    "era": {
+      "title": "Era 4 Ukraine",
+      "text": "European Commission website with central info for researchers and available grants",
+      "alt": "European Commission"
+    },
     "rotary": {
       "title": "Rotary Club Accomodation",
       "text": "Place to offer and look for accomodation in Europe, initiated by Rotary Club Berlin & International",

@@ -1,6 +1,21 @@
 {
   "tiles": [
     {
+      "id": "gfps",
+      "url": "https://padlet.com/svenjaros/vl0105hx3igusfic?fbclid=IwAR1CdOIDRnsktXhj3aZHgF4peCcb3wWeiNfDqlJO6DWq4FhdGa_ySl-EjQE",
+      "pictureName": "gfps.png"
+    },
+    {
+      "id": "db",
+      "url": "https://db.jobs/en-en/jobingermany-ukr?fbclid=IwAR3-J5gJ3kyhhcDLqyGA9Eh6S2RFQJ-4sLEw3lDAzIBR4ngiBnIPNoX6jgE",
+      "pictureName": "db.png"
+    },
+    {
+      "id": "era",
+      "url": "https://euraxess.ec.europa.eu/ukraine",
+      "pictureName": "eu.png"
+    },
+    {
       "id": "rotary",
       "url": "https://www.spacesforukraine.org/",
       "pictureName": "rotary.jpg"
