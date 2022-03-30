@@ -133,22 +133,6 @@ const Hero = ({
                   >
                     {t("hero.hbf")}
                   </Button>
-                  <Button
-                    tag="a"
-                    color="dark"
-                    wideMobile
-                    href="https://t.me/teamsuedkreuz"
-                  >
-                    {t("hero.sued")}
-                  </Button>
-                  <Button
-                    tag="a"
-                    color="dark"
-                    wideMobile
-                    href="https://t.me/arrivalostbahnhof"
-                  >
-                    {t("hero.ost")}
-                  </Button>
                 </ButtonGroup>
               </div>
             </div>
